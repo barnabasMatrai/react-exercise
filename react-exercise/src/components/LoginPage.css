@@ -4,5 +4,19 @@
     left: 0;
     height: 100%;
     width: 100%;
+    background-size: cover;
     background-image: url(../images/login-page-background.jpg);
+}
+
+#login-container {
+    position: relative;
+    top: 15vw;
+    margin: auto;
+    max-width: 12vw;
+    border: 3px solid black;
+    background-color: white;
+}
+
+#login-form.label, #login-form.input {
+    float: left;
 }
