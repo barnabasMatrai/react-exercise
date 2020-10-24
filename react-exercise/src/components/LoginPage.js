@@ -15,7 +15,7 @@ export function LoginPage() {
                         <input type="submit" value="Login"/>
                     </form>
                     <div id="products-link-container">
-                        <a href="/products">Continue as guest</a>
+                        <a href="/products-page">Continue as guest</a>
                     </div>
                 </div>
             </div>
