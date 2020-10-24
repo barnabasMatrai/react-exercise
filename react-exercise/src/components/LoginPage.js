@@ -5,7 +5,7 @@ import './LoginPage.css';
 export function LoginPage() {
         return (
             <div id="login-page-container" className="page-container">
-                <a href="/registration" id="registration-link">Registration</a>
+                <a href="/registration" className="upper-right-link">Registration</a>
                 <div id="login-container" className="form-container">
                     <form id="login-form" method="post">
                         <label htmlFor="email">Email address:</label>

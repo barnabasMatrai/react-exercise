@@ -2,14 +2,6 @@
     float: left;
 }
 
-#registration-link {
-    float: right;
-    margin-top: 1vw;
-    margin-right: 1vw;
-    background-color: white;
-    border: 3px solid black;
-}
-
 #products-link-container {
     text-align: center;
 }

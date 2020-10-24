@@ -17,6 +17,14 @@
     background-color: white;
 }
 
+.upper-right-link {
+    float: right;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    background-color: white;
+    border: 3px solid black;
+}
+
 input[type=text], input[type=email], input[type=password] {
     width: 95%;
     display: block;

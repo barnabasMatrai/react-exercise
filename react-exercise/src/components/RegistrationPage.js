@@ -5,6 +5,7 @@ import './RegistrationPage.css';
 export function RegistrationPage() {
     return (
         <div id="registration-page-container" className="page-container">
+            <a href="/login" className="upper-right-link">Back to login page</a>
             <div id="registration-container" className="form-container">
                 <form id="registration-form" method="post">
                     <label htmlFor="name">Name:</label>
