@@ -13,7 +13,9 @@ export function LoginPage() {
                         <input type="password" id="password" name="password" minLength="1" required="required"/>
                         <input type="submit" value="Login"/>
                     </form>
-                    <a href="/products" id="products-link">Continue as guest</a>
+                    <div id="products-link-container">
+                        <a href="/products">Continue as guest</a>
+                    </div>
                 </div>
             </div>
         );
