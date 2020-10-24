@@ -12,12 +12,12 @@ export function ProductsPage() {
     for (let itemImagesKey in itemImages) {
         let image = React.createElement("img", { src: itemImagesKey, className: "item-image" });
         let a = React.createElement("a", {}, itemImages[itemImagesKey]);
-        let div = React.createElement("div", {}, [image, a]);
+        let div = React.createElement("div", { className: "item-container" }, [image, a]);
 
         items.push(div);
     }
 
-    const itemsDiv = React.createElement("div", {}, items);
+    const itemsDiv = React.createElement("div", { className: "items-container" }, items);
 
     return React.createElement("div", { className: "page-container" }, itemsDiv);
 }

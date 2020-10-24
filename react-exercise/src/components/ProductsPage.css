@@ -2,3 +2,11 @@
     width: 5vw;
     height: 5vw;
 }
+
+.item-container {
+    background-color: white;
+    display: inline-block;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    border: 3px solid black;
+}
