@@ -7,9 +7,9 @@ export function LoginPage() {
                 <div id="login-container">
                     <form id="login-form" method="post">
                         <label htmlFor="email">Email address:</label>
-                        <input type="email" id="email" name="email"/>
+                        <input type="email" id="email" name="email" required="required"/>
                         <label htmlFor="password">Password:</label>
-                        <input type="password" id="password" name="password"/>
+                        <input type="password" id="password" name="password" minLength="1" required="required"/>
                         <input type="submit" value="Login"/>
                     </form>
                 </div>
