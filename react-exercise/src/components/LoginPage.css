@@ -1,34 +1,5 @@
-#login-page-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-image: url(../images/login-page-background.jpg);
-}
-
-#login-container {
-    position: relative;
-    top: 15vw;
-    margin: auto;
-    max-width: 12vw;
-    border: 3px solid black;
-    background-color: white;
-}
-
 #login-form.label, #login-form.input {
     float: left;
-}
-
-input[type=email], input[type=password] {
-    width: 95%;
-    display: block;
-}
-
-input[type=submit] {
-    width: 100%;
-    display: block;
 }
 
 #registration-link {
