@@ -1,0 +1,12 @@
+.item-image {
+    width: 10vw;
+    height: 10vw;
+}
+
+.item-container {
+    position: relative;
+    background-color: white;
+    top: 13vw;
+    left: 40%;
+    border: 3px solid black;
+}
