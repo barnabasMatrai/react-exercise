@@ -20,3 +20,13 @@
 #login-form.label, #login-form.input {
     float: left;
 }
+
+input[type=email], input[type=password] {
+    width: 95%;
+    display: block;
+}
+
+input[type=submit] {
+    width: 100%;
+    display: block;
+}
