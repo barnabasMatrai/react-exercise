@@ -79,10 +79,21 @@ namespace WebshopAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            if (_context.Users.Contains(user))
+            {
+                return StatusCode(404);
+            }
+
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetUser", new { id = user.Id }, user);
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<User>> PostUserLogin(User user)
+        {
+            return _context.Users.Where(registeredUser => registeredUser.Email == user.Email).FirstOrDefault();
         }
 
         // DELETE: api/Users/5

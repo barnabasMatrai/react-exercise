@@ -13,11 +13,11 @@ export function LoginPage() {
     const { setAuthTokens } = useAuth();
 
     function postLogin() {
-        axios.post("www.somePlace.com/auth/login", {
+        axios.post("https://localhost:44323/api/userapi/login", {
             email,
             password
         }).then(result => {
-            if (result.status === 200) {
+            if (result.status === 204) {
                 setAuthTokens(result.data);
                 setLoggedIn(true);
             } else {
